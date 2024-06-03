@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto",sans-serif;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(https://4kwallpapers.com/images/wallpapers/windows-11-landscape-scenery-sunrise-stock-day-light-2560x1440-5661.jpg) no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+header{
+    position: relative;
+    top: 30px;
+    padding: 15px 40px;
+    margin-top: 15px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    /* margin-left: 25px;*/
+    font-size: 25px;
+    text-decoration: none;
+    color: #105138;
+    font-weight: 500;
+    padding: 0px 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+header .logo:hover{
+    background-color: #ffffff;
+}
+header .navigation a{
+    color: rgb(31, 78, 78);
+    font-size: 22px;
+    padding: 9px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+header .home{
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+header .navigation a:hover{
+    background-color: #ffffff;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+section h2{
+    color: #0c5230;
+    font-size: 50px;
+    font-weight: 600;
+    /* display: flex; */
+    /* justify-content: right; */
+    padding: 15px 305px;
+}
+section h2 span{
+    font-weight: 400;
+    color: rgb(25, 115, 115);
+}
+section p{
+    font-size: 22px;
+    margin-top: 70px;
+    padding: 5px 20px;
+    color: rgb(15, 16, 16);
+    font-weight: 700;
+    line-height: 25px;
+}
+section .info{
+
+    justify-content: center;
+    color: rgb(253, 249, 249);
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px 20px;
+    background: #095a33;
+    border-radius: 20px;
+    margin-left: 42%;
+}
+section .info:hover{
+    background-color: #0e3d26;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+footer a{
+    position: relative;
+    color: #0c5230;
+    font-size: 30px;
+    letter-spacing: 30px;
+    box-shadow: 0 0 20px 10px rgba(222, 16, 16, 0.05);
+    margin: 0 15px;
+    border-radius: 50%;
+}
+footer a .fab{
+    line-height: 80px;
+}
+footer a:hover{
+    transform: scale(2);
+}
